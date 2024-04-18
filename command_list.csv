@@ -1,10 +1,8 @@
     1  git config --global user.name "studentName"
     2  git config --global user.email "student@gmail.com"
     3  git clone https://github.com/AndrewBondarev/HW_10.git
-    4  cd HW_10
     5  touch text_ignore.txt
     6  echo text_ignore.txt > .gitignore
-    7  git status 
     8  git add .
     9  git commit -m "files were added"
    10  touch main_test.txt
